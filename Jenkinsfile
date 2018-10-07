@@ -11,10 +11,12 @@ node {
 stage('Deploy approval'){
     input "Deploy to prod?"
 }
+
+hello word
+
 node {
     stage('deploy to prod'){
         echo "deploying"
     }
 }
 
-helloo
